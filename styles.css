@@ -1,0 +1,42 @@
+h1 {
+  color: blue;
+}
+
+p {
+  color: #D3D3FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Hide the menu to the side on mobile and not allow scrolling to the side */
+html {
+  overflow-x: hidden;
+}
+/* basic styles for the header component */
+nav {
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* Make nav menu items take full width allocated */
+.navMenu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navMenu li {
+  list-style: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navMenu li:hover {
+  color: blue;
+}
