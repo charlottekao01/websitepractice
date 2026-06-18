@@ -17,14 +17,13 @@ p {
 html {
   overflow-x: hidden;
 }
-/* basic styles for the header component */
+
 nav {
   width: 100%;
   padding: 20px;
 }
 
 
-/* Make nav menu items take full width allocated */
 .navMenu ul {
   display: flex;
   justify-content: space-between;
@@ -39,4 +38,7 @@ nav {
 }
 .navMenu li:hover {
   color: blue;
+}
+
+.button {background-color: #CBC3E3; border: dashed; color: white: padding: 20px 34px; text-align: center; curosr:pointer;
 }
